@@ -1,0 +1,388 @@
+body {
+    padding:0;
+    margin:0;
+}
+#logo {
+    position: absolute;
+    background-color: lightgreen;
+    width:7vw;
+    height:7vw;
+    top:0.45vw;
+    left:0.45vw;
+}
+#bon {
+    width:40vw;
+    height:31vw;
+    margin-left:30vw;
+    margin-top:2vw;
+    background-color: red;
+    color:white;
+    font-weight: bold;
+    padding:0.1vw;
+    text-align: center;
+}
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+#openingstijden {
+    background-color: red;
+    color:white;
+    padding:0.5vw;
+    width: 20vw;
+    height:5vw;
+    font-weight: bolder;
+    margin-left:75vw;
+    margin-top:-10vw;
+}
+h2 {
+    text-align: center;
+}
+table {
+    margin-left:5vw;
+    margin-top:1vw;
+}
+tr {
+    background-color: grey;
+}
+.tr {
+    background-color: grey;
+}
+td {
+    width:10vw;
+    background-color: lightgrey;
+    text-align: center;
+}
+.hoeveelheid {
+    width:3vw;
+}
+#gegevensinput {
+    color:white;
+}
+#bestel {
+    width:7vw;
+    color:black;
+    font-weight: bolder;
+    background-color: lightgrey;
+}
+#bestel:hover {
+    background-color: grey;
+}
+#gegevensform {
+    background-color: red;
+    width:20vw;
+    text-align: center;
+    margin-left:50vw;
+    margin-top:-20vw;
+    height:16vw;
+}
+#formulieren {
+    background-color: red;
+    padding:1vw;
+    color:White;
+    font-weight: bold;
+    width:45vw;
+    margin-left:47.5vw;
+    margin-top:-20.8vw;
+    height:16.6vw;
+}
+.buttonToevoegen {
+    background-color: lightgrey;
+}
+.buttonToevoegen:hover {
+    background-color:  grey;
+}
+#aanpassenButton {
+    background-color: lightgrey;
+}
+#verwijderButton {
+    background-color: lightgrey;
+}
+#aanpassenButton:hover {
+    background-color: grey;
+}
+#verwijderButton:hover {
+    background-color: grey;
+}
+.toevoegenknop {
+    width:10vw;
+}
+.toevoegenknop2 {
+    width:8vw;
+}
+.toevoegenknop3 {
+    width:7.5vw;
+}
+#database {
+    border: 1px solid black;
+    background-color: red;
+}
+#trdatabase {
+    background-color: red;
+}
+#tddatabase {
+    background-color: red;
+}
+#logo {
+    font-size:3vw;
+}
+#label {
+    background-color: white;
+    padding:3px;
+}
+select {
+    background-color: white;
+    padding:3px;
+}
+input {
+    background-color: white;
+}
+#form {
+    padding:1vw;
+    position:absolute;
+    border:1px solid black;
+    text-align: center;
+    top:13vw;
+    left:34.5vw;
+    width:29vw;
+    height:8vw;
+    background-color: red;
+}
+#form2 {
+    padding:1vw;
+    position:absolute;
+    border:1px solid black;
+    border-top:none;
+    text-align: center;
+    top:22vw;
+    left:34.5vw;
+    width:29vw;
+    height:20vw;
+    background-color: red;
+}
+#content-wrap {
+    padding-bottom:3rem;
+}
+#header {
+    height: 16vh;
+    width:100vw;
+    background-color: red;
+    color:black;
+    font-size: 6vw;
+    text-align: center;
+}
+#footer {
+    position: absolute;
+    height: 3rem;
+    width: 100vw;
+    background-color: red;
+    bottom:0vw;
+}
+#footer2 {
+    position: absolute;
+    height: 3rem;
+    width: 100vw;
+    background-color: red;
+    bottom:0vw;
+}
+#nav {
+    margin-top:0.5vw;
+    width:100vw;
+    height:3vw;
+}
+.buttons {
+    position: relative;
+    width:10vw;
+    color:black;
+    Font-size:1.5vw;
+    min-width:30px;
+    min-height: 35px;
+    height:3vw;
+    font-weight:bold;
+    color:white;
+    background-color:red;
+    top:0.5vw;
+    left:34.8vw;
+}
+.buttons:hover {
+    box-shadow: black 1px 2px 5px;
+}
+#email {
+    position: absolute;
+    top:1vw;
+    margin-left:1vw;
+}
+#copyright {
+    text-align: right;
+    margin-right:1vw;
+    margin-top:1vw;
+}
+#text1 {
+    position: absolute;
+    width:90vw;
+    height:10vw;
+    top:26vh;
+    left:5vw;
+    font-size:2.5vw;
+    text-align: center;
+}
+.pizzafotos {
+    position: relative;
+    top:30vh;
+    min-height:180px;
+    min-width:180px;
+    width:17vw;
+    height:17vw;
+    background-color: white;
+    overflow:hidden;
+    float:left;
+}
+#logo {
+    background-image: url("../fotos/logo-sopranos.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+#afbeelding2 {
+    left:9vw;
+}
+#afbeelding3 {
+    left:14vw;
+}
+#afbeelding4 {
+    left:19vw;
+}
+#afbeelding5 {
+    left:24vw;
+}
+@media screen and (max-width: 380px) {
+    table {
+        margin-left:19vw;
+        margin-top:35vw;
+    }
+    #bon {
+        width:80vw;
+        height:70vw;
+        margin-left:10vw;
+        margin-top:40vw;
+        background-color: red;
+        color:white;
+        font-weight: bold;
+        padding:0.1vw;
+        text-align: center;
+    }
+    #openingstijden {
+        background-color: red;
+        color:white;
+        padding:0.5vw;
+        width: 80vw;
+        height:20vw;
+        font-weight: bolder;
+        margin-left:10vw;
+        margin-top:40vw;
+    }
+    #formulieren {
+        margin-top:10vw;
+        height:100vw;
+        margin-left:15vw;
+        width:70vw;
+    }
+    #bestel {
+        width:35vw;
+        color:black;
+        font-weight: bolder;
+        background-color: lightgrey;
+    }
+    #gegevensform {
+        background-color: red;
+        width:60vw;
+        text-align: center;
+        margin-left:20vw;
+        margin-top:15vw;
+        height:60vw;
+    }
+    .toevoegenknop {
+        width:30vw;
+    }
+    .toevoegenknop2 {
+        width:28vw;
+    }
+    .toevoegenknop3 {
+        width:27.5vw;
+    }
+    .buttons {
+        font-size:5vw;
+    }
+    #form {
+        top:82vw;
+        width:80vw;
+        height:33vw;
+        left:10vw;
+    }
+    #form2 {
+        top:115vw;
+        width:80vw;
+        height:55vw;
+        left:10vw;
+    }
+    #logo {
+        width:24vw;
+        height:24vw;
+        top:14vw;
+        left:38vw;
+    }
+    #text1 {
+        top:80vw;
+        height:50vw;
+        font-size:10vw;
+    }
+    #header {
+        font-size:12vw;
+        height:40vw;
+    }
+    .buttons {
+        width:50vw;
+        left:25vw;
+    }
+    #button1 {
+        left:25vw;
+    }
+    #button2 {
+        left:25vw;
+        top:4vw;
+    }
+    #button3 {
+        left:25vw;
+        top:8vw;
+    }
+    #afbeelding2 {
+        left:10vw;
+        top:120vw;
+    }
+    #afbeelding3 {
+        left:10vw;
+        top:125vw;
+    }
+    #afbeelding4 {
+        left:10vw;
+        top:130vw;
+    }
+    #afbeelding5 {
+        top:135vw;
+        left:10vw;
+    }
+    .pizzafotos {
+     left:12vw; 
+     width:80vw;
+     height:80vw;
+     float:center;
+     top:30vw;
+   }
+   #footer {
+       top:500vw;
+       font-size:3.5vw;
+   }
+   #footer2 {
+    bottom:-15vw;
+    font-size:3.5vw;
+}
+ }
